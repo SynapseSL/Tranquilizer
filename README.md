@@ -1,10 +1,14 @@
 # Tranquilizer
-The Tranquilizer is a Weapon which looks like a Usp and spawns additionaly to the normal USP in a Position you can set in the Config and can stun almost every class.
+It' a Custom Weapon Plugin for SCP:SL(Synapse 2) that adds a tranquilizer gun (it doesn't replace a already existing weapon!).When a player is shot by it, they are temporarily ragdolled for the duration of the tranquilization
 
 The Tranquilizer Itemid is 42 (so you can get it with `giveitem playerid 42`)
 
 # Credits
 Original [Scp-TranquilizerGun](https://github.com/NeonWizard/SCP-TranquilizerGun) plugin by [NeonWizard](https://github.com/NeonWizard)
+
+# Installation
+1. Install Synapse 2
+2. Place the latest Tranquilizer.dll in `~/Synapse/plugins/server-{serverport}`
 
 # Config
 | ConfigName | Type | Description |
