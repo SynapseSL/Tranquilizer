@@ -7,7 +7,7 @@ namespace Tranquilizer
     //Original: https://github.com/NeonWizard/SCP-TranquilizerGun
     [PluginInformation(
         Author = "Dimenzio",
-        Description = "A Plugin which adds the Tranbquilizer to the Game (ID 40)",
+        Description = "A Plugin which adds the Tranbquilizer to the Game (ID 42)",
         LoadPriority = int.MinValue,
         Name = "Tranquilizer",
         SynapseMajor = 2,
