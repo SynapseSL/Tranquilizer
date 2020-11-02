@@ -7,12 +7,12 @@ namespace Tranquilizer
     //Original: https://github.com/NeonWizard/SCP-TranquilizerGun
     [PluginInformation(
         Author = "Dimenzio",
-        Description = "A Plugin which adds the Tranbquilizer to the Game (ID 42)",
-        LoadPriority = int.MinValue,
+        Description = "A Plugin which adds the Tranquilizer to the Game (ID 42)",
+        LoadPriority = 1,
         Name = "Tranquilizer",
-        SynapseMajor = 2,
-        SynapseMinor = 0,
-        SynapsePatch = 0,
+        SynapseMajor = SynapseController.SynapseMajor,
+        SynapseMinor = SynapseController.SynapseMinor,
+        SynapsePatch = SynapseController.SynapsePatch,
         Version = "v.1.0.0"
         )]
     public class PluginClass : AbstractPlugin
@@ -25,7 +25,7 @@ namespace Tranquilizer
         public override void Load()
         {
             pclass = this;
-            Server.Get.ItemManager.RegisterCustomItem(new Synapse.Api.Items.CustomItemInformations()
+            Server.Get.ItemManager.RegisterCustomItem(new Synapse.Api.Items.CustomItemInformation()
             {
                 BasedItemType = ItemType.GunUSP,
                 ID = TranquilizerID,
