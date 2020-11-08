@@ -1,5 +1,7 @@
 # Tranquilizer
-It' a Custom Weapon Plugin for SCP:SL(Synapse 2) that adds a tranquilizer gun (it doesn't replace a already existing weapon!).When a player is shot by it, they are temporarily ragdolled for the duration of the tranquilization
+Tranquilizer is a plugin that adds a new weapon to the game. It utilzies the SynapseItem Api. (This prevents to replace the original weapon)
+
+With the weapon a player can stun another player for a specific time set inside the config.
 
 # ItemInformations
 ```
